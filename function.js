@@ -50,14 +50,10 @@ body {
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical; 
         overflow: hidden;
+	color: #CACACA;
+	font-size: 13px;
+	margin-top:5px;
       }
-
-  		.caption {
-  			width: 70%;
-  			max-width: 854px;
-  			margin: 0 auto;
-  			padding: 20px 0;
-  		}
 
   		.vid-main-wrapper {
   			width: 100vw;
@@ -71,11 +67,11 @@ body {
  		############################### */
   		.vid-container {
 		    position: relative;
-		    padding-bottom: 52%;
-		    padding-top: 30px; 
+		    padding-bottom: 0%;
+		    padding-top: 0px; 
 		    height: 0; 
-        width:70%;
-        float:left;
+                    width:70%;
+                    float:left;
 		}
 		 
 		.vid-container iframe,
@@ -133,25 +129,6 @@ body {
       background:#3A3A3A;
     }
 
-		#vid-list .desc {
-			color: #CACACA;
-			font-size: 13px;
-			margin-top:5px;
-		}
-
-
-		@media (max-width: 624px) {
-			body {
-				margin: 15px;
-			}
-			.caption {
-				margin-top: 40px;
-			}
-			.vid-list-container {
-				padding-bottom: 20px;
-			}
-
-		}
 </style>
 <script>
 /*JS FOR SCROLLING THE ROW OF THUMBNAILS*/ 
