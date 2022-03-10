@@ -1,8 +1,8 @@
 {
   "kind": "column",
-  "name": "Customized bubble chart",
-  "description": "Customized bubble chart with label",
-  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "name": "Customized YouTube playlist",
+  "description": "",
+  "author": "derwinsadiwa",
   "params": [
     {
       "name": "data",
@@ -10,23 +10,8 @@
       "type": "string"
     },
     {
-      "name": "width",
-      "displayName": "Width (default to 100%)",
-      "type": "string"
-    },
-    {
-      "name": "height",
-      "displayName": "Height (default to 100%)",
-      "type": "string"
-    },
-    {
-      "name": "colors",
-      "displayName": "List of colors",
-      "type": "string"
-    },
-    {
-      "name": "labels",
-      "displayName": "List of data labels",
+      "name": "first_id",
+      "displayName": "First video's ID",
       "type": "string"
     }
   ],
