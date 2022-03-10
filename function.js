@@ -1,16 +1,11 @@
 // https://www.chartjs.org/
+window.function = function(data, first_id) {
 
+    // data
+    data = data.value ?? "";
+    first_id = first_id.value ?? "";
 
-window.function = function (data, width, height, colors, labels) {
-
-  // data
-  data = data.value ?? "";
-  width = width.value ?? "100";
-  height= height.value ?? "100";
-  colors = colors.value ?? "";
-  labels = labels.value ?? "";
-
-  let ht = `<!DOCTYPE html>
+    let ht = `<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -21,7 +16,7 @@ window.function = function (data, width, height, colors, labels) {
 
   		    <!-- THE YOUTUBE PLAYER -->
       <div class="vid-container">
-          <iframe id="vid_frame" src="https://www.youtube.com/embed/${labels}?rel=0&showinfo=0&autohide=1" frameborder="0""></iframe>
+          <iframe id="vid_frame" src="https://www.youtube.com/embed/${first_id}?rel=0&showinfo=0&autohide=1" frameborder="0""></iframe>
       </div>
 
       <!-- THE PLAYLIST -->
@@ -173,7 +168,7 @@ $(document).ready(function () {
   </body>
 </html>`
 
-  let enc = encodeURIComponent(ht);
-  let uri = `data:text/html;charset=utf-8,${enc}`
-  return uri; 
+    let enc = encodeURIComponent(ht);
+    let uri = `data:text/html;charset=utf-8,${enc}`
+    return uri;
 }
