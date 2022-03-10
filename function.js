@@ -31,7 +31,7 @@ window.function = function(data, first_id) {
 </div>
 <style>
 body {
-  			margin: 15px;
+  			margin: 0px;
   			padding: 0;
   			background: transparent;
   			font-family: Arial, Helvetica, sans-serif;
